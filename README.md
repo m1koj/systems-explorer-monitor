@@ -41,7 +41,7 @@ Required environment variables in `.env`:
 
 | Variable | Description |
 |----------|-------------|
-| `OPEN_AI_API_KEY` | Your OpenAI API key |
+| `OPENAI_API_KEY` | Your OpenAI API key |
 | `PROVIDER_ADDRESS` | Your FTSO provider address |
 
 Optional configuration:
