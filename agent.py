@@ -41,7 +41,7 @@ async def get_provider_monitor_data(custom_provider_address=None):
     if not current_provider_address:
         raise ValueError("Provider address not provided and PROVIDER_ADDRESS not set in environment")
     
-    llm = ChatOpenAI(model="gpt-4o")
+    llm = ChatOpenAI(model="gpt-4o-mini")
     
     # Configure the browser to run in headless mode
     browser_config = BrowserConfig(
